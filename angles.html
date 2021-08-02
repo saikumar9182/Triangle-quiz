@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <div class="midcontainer">
+         <div class="angle-wrapper">
+        <a href="index.html"><button id="goback"><i class="fa fa-chevron-left" aria-hidden="true"></i>Go Back</button></a>
+        
+        <h1>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</h1>
+
+        <form name="testForm" class="input-wrapper form">
+            
+            <input id="angle1" type="number" min="1" max="180" required>
+            <input id="angle2" type="number" min="1" max="180" required>
+            <input id="angle3" type="number" min="1" max="180" required>
+
+            <button type="submit" class="submit" id="asubmit">Submit</button>
+
+        </form>
+
+        <!-- <button class="submit" id="asubmit">Submit</button> -->
+        <div id="aoutput" class="angle-output"><p>Output will be shown here</p></div>
+    </div>
+    </div>
+        
+    
+</body>
+</html>

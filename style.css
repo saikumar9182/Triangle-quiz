@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+
+    body{
+        
+        background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(64,253,29,0.30885857761073177) 50%, rgba(252,176,69,1) 100%);
+        /* height: 100%; */
+        min-height: 100vh;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .midcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+        /* height: 100%; */
+        /* height: auto; */
+        text-align: center;
+        padding: 20px;
+        width:50%;
+        /* margin-top: 40px; */
+        /* overflow: scroll; */
+        
+    }
+
+    input{
+        text-align: center;
+        font-size: large;
+    }
+
+    
+
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cell{
+        background-color: cyan;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    /* angles page styling */
+
+
+
+    #goback{
+        font-size: xx-large;
+        color:darkcyan;
+        border-radius: 30px;
+        border: 0;
+        background-color: gold;
+        cursor: pointer;
+        
+        
+    }
+
+    
+
+   
+
+    .submit{
+        display: block;
+        background-color: rgb(23, 99, 124);
+        border: none;
+        color:white;
+        width:150px;
+        height: 50px;
+        font-size: larger;
+        border-radius: 20px;
+        margin: auto;
+        cursor: pointer;
+        
+    }
+
+    .angle-output{
+        margin-top: 30px;
+        background-color: rgb(23,99,124);
+        color: white;
+        
+        border-radius: 30px;
+        font-size: x-large;
+        padding: 3rem 1rem ;
+
+    }
+
+    .angle-wrapper{
+        /* margin: 2rem,1rem; */
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* overflow: scroll; */
+    }
+
+    
+
+    .input-wrapper input{
+        height:80px;
+        width:80px;
+        margin: 20px 15px;
+    }
+
+
+    /* hypotenuse page styling */
+    .triangle div{
+        height: 2px;
+        background-color: #1e3a8a;
+    }
+    .triangle{
+        position: relative;
+        width: 104px;
+        height: 104px;
+        margin: 0 auto 20px;
+    
+    }
+    .triangle label{
+        position: absolute;
+        font-size: 0.8rem;
+    }
+
+    .sideA{
+        left: -15px;
+        top: 45px;
+    }
+    .sideB{
+        left: 45px;
+        top:105px;
+    }
+    .sideC{
+        left: 50px;
+        top: 35px;
+    }
+
+    .line{
+        position: relative;
+        bottom: -100px;
+    }
+    .triangle .line1{
+        width: 100px;
+        bottom: -102px;
+        
+    }
+    
+    .triangle .line2{
+        width: 100px;
+        transform: rotate(90deg);
+        top: 50px;
+        left: -50px;
+    }
+    .triangle .line3{
+        width: 141.42px;
+        transform: rotate(45deg);
+        top: 50px;
+        left: -20px;
+    }
+
+    .heightH{
+        left: 25px;
+        top:75px;
+    }
+
+    /* Triangle logic above */
+
+    .question{
+        /* background-color: #1e3a8a; */
+        color: white;
+        padding: 30px;
+        margin:20px;
+        font-size: large;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .ow {
+        background-color: #1e3a8a;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 80%;
+        color: white;
+    }
+
+    
+
+    .formulaSelectionForm{
+        text-align: left;
+    }
+    .radio label{
+        cursor: pointer;
+        padding: 0.5rem 0.5rem 0.5rem 0;
+        display: inline-block;
+    }
+
+    /* area page stylin */
+    .areaCalBlock{
+        display: none;
+        }
+
+        .form input{
+            height: 80px;
+            width: 80px;
+            margin: 20px 15px;
+        }
+
+        .angleA{
+            left: 75px;
+            top:87px;
+        }
+
+        .triangle .line4{
+            width: 71px;
+            transform: rotate(135deg);
+            left:-12px;
+            top: 72px
+        }
+        .triangle .line5{
+            width: 8px;
+            transform: rotate(135deg);
+            left:50px;
+            top: 55px;
+        }
+        .triangle .line6{
+            width: 12px;
+            transform: rotate(45deg);
+            left:41px;
+            top: 50px;
+        }
+
+
+
+    
+
+    @media screen and (max-width:900px) {
+        .midcontainer{
+            width:100%;
+            /* padding: 30px;
+            margin-top: 30px; */
+            padding: 40px 0;
+        }
+        #goback{
+            font-size: xx-large;
+            color:darkcyan;
+            border-radius: 30px;
+            border: 0;
+            background-color: gold;
+            cursor: pointer;
+            /* margin-top: px; */
+            
+        }
+        
+    }
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+

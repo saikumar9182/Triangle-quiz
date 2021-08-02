@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripth.js" defer></script>
+   
+</head>
+<body>
+    
+    <div class="midcontainer">
+        
+       <a href="index.html"><button id="goback"><i class="fa fa-chevron-left" aria-hidden="true"></i>Go Back</button></a>
+       
+       <h1>Enter the lengths of sides of right angle triangle</h1>
+
+       <div class="triangle">
+        <label class="label sideA">a</label>
+        <label class="label sideB">b</label>
+        <label class="label sideC">c</label>
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+         </div>
+
+       <form class="input-wrapper">
+           
+        <!-- <label for="quantity">a=<input type="number" ></label>
+        <label for="quantity">b=<input type="number" ></label> -->
+       a= <input id="hinput1" type="number" min="0.0001" step="0.00001" required>
+       b= <input id="hinput2" type="number" min="0.0001" step="0.00001" required>
+       <button id="hsubmit" class="submit">Submit</button>
+        
+           
+        </form>
+
+       
+       <h1>Hypotenuse will be calculated here-</h1>
+       <div id="houtput" class="angle-output"><p>Output will be shown here</p></div>
+   
+   </div>
+
+    
+</body>
+
+</html>
